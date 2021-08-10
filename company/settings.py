@@ -125,6 +125,7 @@ USE_TZ = True
 DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
 STATICFILES_STORAGE = 'storages.backends.azure_storage.AzureStorage'
 
+AZURE_ACCOUNT_NAME = "https://ajoubertdjangostorage.blob.core.windows.net/"
 AZURE_CUSTOM_DOMAIN = "https://ajoubertdjangostorage.blob.core.windows.net/"
 STATIC_LOCATION = 'static'
 
